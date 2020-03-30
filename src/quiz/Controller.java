@@ -9,6 +9,14 @@ import javafx.scene.control.ToggleGroup;
 
 public class Controller {
 
+    /*
+     TODO:
+      checkbox question for which are unchecked exceptions
+      checkbox question for which are methods of StringBuilder
+      checkbox question, which of the following are true about Arrays... mutable, fixed size etc
+      what line fo the following doesn't compile question
+    */
+
     @FXML
     ToggleGroup fruit;
 
