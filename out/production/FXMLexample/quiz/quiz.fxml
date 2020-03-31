@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.ScrollPane?>
@@ -19,16 +20,16 @@
                         <VBox spacing="10.0">
                             <children>
                                 <Label text="Please answer all questions and then press the Submit button to see your final score."/>
-                                <Label text="1. What is your favourite fruit?"/>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Banana">
+                                <Label text="Which of the following is correct?"/>
+                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false"
+                                             text="== checks object reference equality (do the references refer to the same object)">
                                     <toggleGroup>
-                                        <ToggleGroup fx:id="fruit"/>
+                                        <ToggleGroup fx:id="equality"/>
                                     </toggleGroup>
                                 </RadioButton>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Orange"
-                                             toggleGroup="$fruit"/>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Apple"
-                                             toggleGroup="$fruit"/>
+                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false"
+                                             text="== checks object equality (are the contents of the objects the same)"
+                                             toggleGroup="$equality"/>
                                 <Separator prefHeight="16.0" prefWidth="583.0"/>
                                 <Label text="2. What is your favourite color?"/>
                                 <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Green">
@@ -41,7 +42,17 @@
                                 <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Purple"
                                              toggleGroup="$color"/>
                                 <Separator prefHeight="16.0" prefWidth="583.0"/>
-                                <Button fx:id="submitButton" mnemonicParsing="false" text="Submit" onAction="#submit"/>
+                                <Label text="3. Which of the following are checked exceptions?"/>
+                                <CheckBox fx:id="q3a1" mnemonicParsing="false" text="FileNotFoundException"/>
+                                <CheckBox fx:id="q3a2" layoutX="20.0" layoutY="344.0" mnemonicParsing="false"
+                                          text="NumberFormatException"/>
+                                <CheckBox fx:id="q3a3" layoutX="20.0" layoutY="344.0" mnemonicParsing="false"
+                                          text="IOException"/>
+                                <CheckBox fx:id="q3a4" layoutX="20.0" layoutY="400.0" mnemonicParsing="false"
+                                          text="ClassCastException"/>
+                                <CheckBox fx:id="q3a5" layoutX="20.0" layoutY="428.0" mnemonicParsing="false"
+                                          text="None of the above"/>
+                                <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submit" text="Submit"/>
                                 <Label fx:id="scoreDisplay"/>
                             </children>
                             <padding>
