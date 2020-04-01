@@ -1,9 +1,27 @@
-.root{
--fx-font-family: "DejaVu Sans";
+.root {
+    -fx-font-family: "DejaVu Sans";
 }
-Label{
--fx-font-weight: bold;
+
+Label {
+    -fx-font-weight: bold;
 }
-#intro{
--fx-font-size: 18px;
+
+#intro {
+    -fx-font-size: 18px;
+}
+
+#submitButton {
+    -fx-background-color: #4fb4fb;
+    -fx-padding: 10px;
+}
+
+#scoreDisplay {
+    -fx-font-size: 18px;
+}
+
+#title {
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-border-color: #aa70c7;
+    -fx-border-size: 2px;
 }

@@ -1,6 +1,5 @@
 package quiz;
 
-
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -11,19 +10,8 @@ public class Controller {
     @FXML
     public CheckBox q3a1, q3a2, q3a3, q3a4, q3a5, q5a1, q5a2, q5a3, q5a4, q5a5, q5a6;
 
-
-
-    /*
-     TODO:
-      checkbox question for which are unchecked exceptions
-      checkbox question for which are methods of StringBuilder
-      checkbox question, which of the following are true about Arrays... mutable, fixed size etc
-      what line fo the following doesn't compile question
-    */
-
     @FXML
     public ToggleGroup equality, wrapper, aioobe;
-
     public Button submitButton;
     public Label scoreDisplay;
 
@@ -55,9 +43,10 @@ public class Controller {
                     answerCorrect = false;
                 }
             } else {
-                cb.setStyle("-fx-color: #ab0202");
+
                 // if it isn't the correct answer and is selected then it's incorrect
                 if (cb.isSelected()) {
+                    cb.setStyle("-fx-color: #ab0202");
                     answerCorrect = false;
                 }
             }
@@ -77,7 +66,11 @@ public class Controller {
                     score += 1;
                 }
             } else {
-                radioButton.setStyle("-fx-color: #ab0202");
+                if (radioButton.isSelected()) {
+                    radioButton.setStyle("-fx-color: #ab0202");
+                    score += 1;
+                }
+
             }
         }
     }
