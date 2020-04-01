@@ -9,8 +9,9 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("quiz.fxml"));
+        root.getStylesheets().add("quiz/style.css");
         primaryStage.setTitle("Java SE8 Quiz");
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
