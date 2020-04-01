@@ -97,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/quiz" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -214,50 +215,54 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="627" y="141" width="424" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585390162440" />
-    <state width="1253" height="176" key="GridCell.Tab.0.bottom" timestamp="1585647416302">
+    <state width="1253" height="31" key="GridCell.Tab.0.bottom" timestamp="1585731460970">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="176" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585647416302" />
-    <state width="1253" height="176" key="GridCell.Tab.0.center" timestamp="1585647416301">
+    <state width="1253" height="31" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585731460970" />
+    <state width="1253" height="31" key="GridCell.Tab.0.center" timestamp="1585731460969">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="176" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585647416301" />
-    <state width="1253" height="176" key="GridCell.Tab.0.left" timestamp="1585647416301">
+    <state width="1253" height="31" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585731460969" />
+    <state width="1253" height="31" key="GridCell.Tab.0.left" timestamp="1585731460965">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="176" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585647416301" />
-    <state width="1253" height="176" key="GridCell.Tab.0.right" timestamp="1585647416301">
+    <state width="1253" height="31" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585731460965" />
+    <state width="1253" height="31" key="GridCell.Tab.0.right" timestamp="1585731460969">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="176" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585647416301" />
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1585645553969">
+    <state width="1253" height="31" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585731460969" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1585647566277">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585645553969" />
-    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1585645553968">
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585647566277" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1585647566277">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1585645553968" />
-    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1585645553967">
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1585647566277" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1585647566276">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1585645553967" />
-    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1585645553968">
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1585647566276" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1585647566277">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1585645553968" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1585647566277" />
     <state x="332" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1585390164768">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="332" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1585390164768" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585641877975">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1585728443381">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585641877975" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585728443381" />
     <state x="449" y="152" width="524" height="488" key="extract.method.dialog" timestamp="1585643623504">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="152" width="524" height="488" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1585643623504" />
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1585728651246">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1585728651246" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FXMLexample$Main.ic" NAME="Main Coverage Results" MODIFIED="1585387336101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

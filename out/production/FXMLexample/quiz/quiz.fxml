@@ -8,6 +8,8 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
@@ -31,16 +33,17 @@
                                              text="== checks object equality (are the contents of the objects the same)"
                                              toggleGroup="$equality"/>
                                 <Separator prefHeight="16.0" prefWidth="583.0"/>
-                                <Label text="2. What is your favourite color?"/>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Green">
+                                <Label text="2. Which of the following are true?"/>
+                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" prefHeight="20.0"
+                                             prefWidth="514.0"
+                                             text="parseInt() returns a primitive and valueOf() returns a wrapper class object">
                                     <toggleGroup>
-                                        <ToggleGroup fx:id="color"/>
+                                        <ToggleGroup fx:id="wrapper"/>
                                     </toggleGroup>
                                 </RadioButton>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Yellow"
-                                             toggleGroup="$color"/>
-                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false" text="Purple"
-                                             toggleGroup="$color"/>
+                                <RadioButton alignment="CENTER_LEFT" mnemonicParsing="false"
+                                             text="valueOf() returns a primitive and parseInt() returns a wrapper class object"
+                                             toggleGroup="$wrapper"/>
                                 <Separator prefHeight="16.0" prefWidth="583.0"/>
                                 <Label text="3. Which of the following are checked exceptions?"/>
                                 <CheckBox fx:id="q3a1" mnemonicParsing="false" text="FileNotFoundException"/>
@@ -52,6 +55,35 @@
                                           text="ClassCastException"/>
                                 <CheckBox fx:id="q3a5" layoutX="20.0" layoutY="428.0" mnemonicParsing="false"
                                           text="None of the above"/>
+                                <Separator prefHeight="16.0" prefWidth="583.0"/>
+                                <Label text="4. Given the array: String [][] myArray = new String[1][2]; which of the following cause an ArrayIndexOutOfBoundsException?"/>
+                                <ImageView fitHeight="276.0" fitWidth="676.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@array.png"/>
+                                    </image>
+                                </ImageView>
+                                <RadioButton mnemonicParsing="false" text="myArray[0][1]">
+                                    <toggleGroup>
+                                        <ToggleGroup fx:id="aioobe"/>
+                                    </toggleGroup>
+                                </RadioButton>
+                                <RadioButton toggleGroup="$aioobe" layoutX="20.0" layoutY="768.0"
+                                             mnemonicParsing="false"
+                                             text="myArray[1][0]"/>
+                                <Separator layoutX="20.0" layoutY="430.0" prefHeight="16.0" prefWidth="583.0"/>
+                                <Label layoutX="20.0" layoutY="456.0" text="5. Which are true of the above array?"/>
+                                <CheckBox mnemonicParsing="false" text="myArray.length is 2" fx:id="q5a1"/>
+                                <CheckBox layoutX="20.0" layoutY="876.0" mnemonicParsing="false"
+                                          text="myArray.length is 1" fx:id="q5a2"/>
+                                <CheckBox layoutX="20.0" layoutY="904.0" mnemonicParsing="false"
+                                          text="myArray.length is 0" fx:id="q5a3"/>
+                                <CheckBox layoutX="20.0" layoutY="932.0" mnemonicParsing="false"
+                                          text="myArray[0].length is 2" fx:id="q5a4"/>
+                                <CheckBox layoutX="20.0" layoutY="960.0" mnemonicParsing="false"
+                                          text="myArray[0].length is 1" fx:id="q5a5"/>
+                                <CheckBox layoutX="20.0" layoutY="988.0" mnemonicParsing="false"
+                                          text="myArray[0].length is 0" fx:id="q5a6"/>
+                                <Separator layoutX="20.0" layoutY="824.0" prefHeight="16.0" prefWidth="583.0"/>
                                 <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submit" text="Submit"/>
                                 <Label fx:id="scoreDisplay"/>
                             </children>
